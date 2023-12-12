@@ -40,3 +40,10 @@ def instrument(filename='results'):
             fs.write(profiler.output_html())
 
     print(f"Run command: $ xdg-open {path}")
+
+
+
+# @router.post("/main")
+# async def main(request: Request):
+#     with yappi_context():
+#         ... 
